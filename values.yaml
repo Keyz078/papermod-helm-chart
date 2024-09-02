@@ -8,7 +8,7 @@ image:
   repository: keyz078/papermod
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "11"
+  tag: "12"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -40,7 +40,7 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: ClusterIP
+  type: NodePort
   port: 80
 
 ingress:
