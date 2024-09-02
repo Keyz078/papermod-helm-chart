@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: keyz078/papermod
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10"
+  tag: "11"
 
 imagePullSecrets: []
 nameOverride: ""
